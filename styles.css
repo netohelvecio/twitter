@@ -47,6 +47,8 @@ button {
   height: 46px;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1;
 }
 
 .main-header .content {
@@ -118,4 +120,18 @@ button {
   color: #667581;
   font-size: 12px;
   background: #f5f8fa url("/images/search.svg") no-repeat 190px center;
+}
+
+.banner {
+  height: 380px;
+  width: 100%;
+  background: #1da1f2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  color: #fff;
 }
