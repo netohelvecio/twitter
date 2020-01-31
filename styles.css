@@ -223,3 +223,65 @@ button {
   height: 20px;
   margin-left: 20px;
 }
+
+.wrapper-content {
+  display: flex;
+}
+
+.wrapper-content .profile {
+  width: 260px;
+}
+
+.wrapper-content .profile .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -130px;
+}
+
+.wrapper-content .profile h1 {
+  font-size: 21px;
+  color: #1f2226;
+  margin-top: 10px;
+}
+
+.wrapper-content .profile span {
+  font-size: 14px;
+  color: #53626c;
+}
+
+.wrapper-content .profile p {
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 15px;
+  line-height: 18px;
+}
+
+
+.wrapper-content .profile ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.wrapper-content .profile ul li {
+  font-size: 14px;
+  color: #657786;
+  margin-top: 5px;
+
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-content .profile ul li a {
+  text-decoration: none;
+  color: #1da1f2
+}
+
+.wrapper-content .profile ul li:first-child {
+  margin-top: 0;
+}
+
+.wrapper-content .profile ul li img {
+  margin-right: 10px;
+}
