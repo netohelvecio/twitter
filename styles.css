@@ -201,6 +201,7 @@ button {
   color: #1da1f2;
   border-radius: 16px;
   border: 1px solid #1da1f2;
+  background: #fff;
 
   display: flex;
   align-items: center;
@@ -259,12 +260,12 @@ button {
 }
 
 
-.wrapper-content .profile ul {
+.wrapper-content .profile .list-info {
   margin-top: 20px;
   list-style: none;
 }
 
-.wrapper-content .profile ul li {
+.wrapper-content .profile .list-info li {
   font-size: 14px;
   color: #657786;
   margin-top: 5px;
@@ -273,15 +274,68 @@ button {
   align-items: center;
 }
 
-.wrapper-content .profile ul li a {
+.wrapper-content .profile .list-info li a {
   text-decoration: none;
   color: #1da1f2
 }
 
-.wrapper-content .profile ul li:first-child {
+.wrapper-content .profile .list-info li:first-child {
   margin-top: 0;
 }
 
-.wrapper-content .profile ul li img {
+.wrapper-content .profile .list-info li img {
   margin-right: 10px;
+}
+
+.wrapper-content .profile .widget {
+  margin-top: 20px;
+}
+
+.wrapper-content .profile .widget strong {
+  font-weight: normal;
+  font-size: 14px;
+  color: #3bb9e3;
+
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-content .profile .widget strong img {
+  margin-right: 5px;
+}
+
+.wrapper-content .profile .followers ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.wrapper-content .profile .followers ul li {
+  margin: 0 5px 5px 0;
+  flex: 1 0;
+}
+
+.wrapper-content .profile .followers ul li img{
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+}
+
+.wrapper-content .profile .images ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.wrapper-content .profile .images ul li {
+  margin: 0 5px 5px 0;
+  flex: 1 0;
+}
+
+.wrapper-content .profile .images ul li img{
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
 }
